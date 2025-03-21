@@ -1,4 +1,9 @@
 ---
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/500.css";
+import "@fontsource/poppins/600.css";
+import "@fontsource/poppins/700.css";
+import "@fontsource/poppins/800.css";
 import "./src/styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
@@ -11,13 +16,22 @@ import Footer from "../components/Footer.astro";
 		<meta name="viewport" content="width=device-width" />
 		<title>Lorar Studio - Donde el diseño de tus sueños cobra vida</title>
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="description" content="Pagina de diseño y creacion de planos arquitectonicos y renders"/>
+		<meta
+			name="description"
+			content="Pagina de diseño y creacion de planos arquitectonicos y renders"
+		/>
 
 		<!--OpenGraph Meta Tags -->
 		<meta property="og:url" content="https://lorarstudio.com" />
 		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Lorar Studio - Planos Arquitectonicos y Renders"/>
-		<meta property="og:description" content="Donde tus sueños cobran vida"/>
+		<meta
+			property="og:title"
+			content="Lorar Studio - Planos Arquitectonicos y Renders"
+		/>
+		<meta
+			property="og:description"
+			content="Donde tus sueños cobran vida"
+		/>
 		<meta property="og:image" content="https://lorarstudio.com/og.jpeg" />
 		<meta property="og:locale" content="es_ES" />
 		<meta property="og:site_name" content="Lorar Studio" />
@@ -26,13 +40,22 @@ import Footer from "../components/Footer.astro";
 		<meta name="instagram:card" content="summary_large_image" />
 		<meta name="instagram:site" content="@lorarstudio" />
 		<meta name="instagram:creator" content="@shanalora" />
-		<meta name="instagram:title" content="Lorar Studio - Planos Arquitectonicos y Renders"/>
-		<meta name="instagram:description" content="Donde tus sueños cobran vida"/>
+		<meta
+			name="instagram:title"
+			content="Lorar Studio - Planos Arquitectonicos y Renders"
+		/>
+		<meta
+			name="instagram:description"
+			content="Donde tus sueños cobran vida"
+		/>
 
 		<!--Facebook Metatags -->
 		<meta name="facebook:site" content="@lorarstudio" />
 		<meta name="facebook:card" content="summary_large_image" />
-		<meta name="facebook:title" content="Lorar Studio - Planos Arquitectonicos y Renders"/>
+		<meta
+			name="facebook:title"
+			content="Lorar Studio - Planos Arquitectonicos y Renders"
+		/>
 		<meta name="facebook:creator" content="@shanalora" />
 
 		<!--Additional Meta Tags -->
@@ -40,7 +63,7 @@ import Footer from "../components/Footer.astro";
 		<meta name="theme-color" content="#c3cbea" />
 		<meta name="author" content="Shana Lora" />
 	</head>
-	<body class="">
+	<body class="max-w-9xl px-20 mx-auto pt-6">
 		<Header />
 		<slot />
 		<Footer />
