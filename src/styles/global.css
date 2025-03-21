@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+    --color-primary: #212121CC;
+    --color-secondary: #424D79;
+    --color-tertiary: #C3CBEA;
+
+}
+
+@utility max-w-8xl{
+    max-width: 1147px;
+}
+
+@utility max-w-9xl{
+    max-width: 1440px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
