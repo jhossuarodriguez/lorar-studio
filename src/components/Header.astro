@@ -1,0 +1,70 @@
+---
+import Logo from "./public/logo.svg";
+import FirstDownloadIcon from "../assets/images/icons/Download-1.svg";
+---
+
+<header
+    class="fixed top-5 left-0 w-full flex flex-col justify-center items-center z-50"
+>
+    <div class="flex justify-between items-center w-full max-w-8xl mx-36">
+        <div class="flex justify-start items-center">
+            <a
+                href="/"
+                title="Ir a la página principal"
+                aria-label="Ir a la página principal"
+            >
+                <Logo
+                    class="size-[60px] text-primary hover:scale-105 transition duration-300"
+                />
+            </a>
+        </div>
+
+        <div class="flex justify-end items-center gap-x-9">
+            <nav class="flex gap-x-4">
+                <a
+                    class="text-secondary hover:text-white transition duration-200"
+                    href="/docs">Inico</a
+                >
+                <a
+                    class="text-secondary hover:text-white transition duration-200"
+                    href="/docs">Proyectos</a
+                >
+                <a
+                    class="text-secondary hover:text-white transition duration-200"
+                    href="/docs">Contacto</a
+                >
+            </nav>
+            <div class="flex items-center">
+                <a
+                    class="flex justify-center items-center w-36 px-5 py-3 bg-primary text-tertiary rounded gap-x-1 hover:scale-105 transition duration-300"
+                    href="#proyectos"
+                    >CV <FirstDownloadIcon class="size-4 text-white" />
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+    header {
+        background: transparent;
+        animation: header-blur-scroll 0.3s linear both;
+        animation-timeline: scroll();
+        animation-range: 0 250px;
+        border-bottom: 1px solid transparent;
+    }
+
+    @keyframes header-blur-scroll {
+        0% {
+            backdrop-filter: bluer(0px);
+            background: transparent;
+        }
+
+        100% {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.5);
+            padding-bottom: var(--spacing-6);
+            border-bottom-color: var(--color-secondary);
+        }
+    }
+</style>
