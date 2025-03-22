@@ -1,0 +1,21 @@
+---
+import { Image } from "astro:assets";
+import CeoProfile from "../assets/images/ceo_profile.webp";
+---
+
+<section class="w-full mx-auto min-h-[1093px] bg-[#F0F3FF]">
+    <div class="px-20 py-36">
+        <Image
+            src={CeoProfile}
+            alt="Ceo Lorar Studio"
+            class="opacity-50 w-[450px]"
+            fetchpriority="high"
+        />
+        <div class="flex flex-col justify-start gap-y-4">
+            <h1 class="text-lg text-secondary font-semibold mt-7">
+                Shana Lora
+            </h1>
+            <h2 class="text-base text-primary">CEO Lorar Studio</h2>
+        </div>
+    </div>
+</section>
