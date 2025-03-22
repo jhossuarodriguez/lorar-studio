@@ -4,9 +4,9 @@ import FirstDownloadIcon from "../assets/images/icons/Download-1.svg";
 ---
 
 <header
-    class="fixed top-5 left-0 w-full flex flex-col justify-center items-center z-50"
+    class="fixed top-0 left-0 w-full flex flex-col justify-center items-center z-50 py-4"
 >
-    <div class="flex justify-between items-center w-full max-w-8xl mx-36">
+    <div class="flex justify-between items-center w-full max-w-8xl">
         <div class="flex justify-start items-center">
             <a
                 href="/"
@@ -14,7 +14,7 @@ import FirstDownloadIcon from "../assets/images/icons/Download-1.svg";
                 aria-label="Ir a la página principal"
             >
                 <Logo
-                    class="size-[60px] text-primary hover:scale-105 transition duration-300"
+                    class="size-12 text-primary hover:scale-105 transition duration-300"
                 />
             </a>
         </div>
@@ -23,15 +23,15 @@ import FirstDownloadIcon from "../assets/images/icons/Download-1.svg";
             <nav class="flex gap-x-4">
                 <a
                     class="text-secondary hover:text-white transition duration-200"
-                    href="/docs">Inico</a
+                    href="/">Inico</a
                 >
                 <a
                     class="text-secondary hover:text-white transition duration-200"
-                    href="/docs">Proyectos</a
+                    href="#proyectos">Proyectos</a
                 >
                 <a
                     class="text-secondary hover:text-white transition duration-200"
-                    href="/docs">Contacto</a
+                    href="#contacto">Contacto</a
                 >
             </nav>
             <div class="flex items-center">
@@ -62,7 +62,7 @@ import FirstDownloadIcon from "../assets/images/icons/Download-1.svg";
 
         100% {
             backdrop-filter: blur(10px);
-            background: rgba(255, 255, 255, 0.5);
+            background: var(--color-tertiary);
             padding-bottom: var(--spacing-6);
             border-bottom-color: var(--color-secondary);
         }

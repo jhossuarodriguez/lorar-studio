@@ -1,0 +1,29 @@
+---
+import SecondDownloadIcon from "../assets/images/icons/Download-2.svg";
+import Logo from "./public/logo.svg";
+---
+
+<section class="mt-40 mx-10 min-h-screen relative">
+    <div class="w-[660px] h-[468px]">
+        <h1 class="text-7xl w-2xl text-primary font-semibold leading-[1.15]">
+            Donde las ideas toman forma y el espacio cobra vida.
+        </h1>
+        <div class="mt-9 flex flex-row gap-x-6">
+            <a
+                href="#proyectos"
+                class="flex justify-center items-center bg-primary text-tertiary text-base w-40 px-5 py-3 rounded transition-transform duration-300 hover:scale-105"
+                >Ver proyectos</a
+            >
+            <button
+                class="flex justify-center items-center text-secondary text-base w-48 h-12 px-5 py-3 rounded transition-transform duration-300 hover:scale-105 gap-x-2"
+                >Portfolio <SecondDownloadIcon class="size-4" /></button
+            >
+        </div>
+
+        <div class="absolute -right-9 md:-top[30%] top-[15%]">
+            <Logo
+                class="z-999 md:w-[725px] size-[530px] text-primary object-cover"
+            />
+        </div>
+    </div>
+</section>
