@@ -1,4 +1,4 @@
-# **Lorar - Servicios de Arquitectura y Diseño de Interiores** 🏛️🏡
+# **Lorar - Servicios de Arquitectura y Diseño de Interiores** 🏡
 
 ## 📚 Descripción
 
@@ -50,10 +50,9 @@ Si deseas obtener más información o discutir un proyecto, no dudes en contacta
 - **Teléfono**: +1 (809) 123-4567 📞
 - **Redes Sociales**:  
   - [Facebook](https://www.facebook.com/profile.php?id=61569035094307) 📘  
-  - [Instagram](https://www.instagram.com/Lorarestudio) 📸  
+  - [Instagram](https://www.instagram.com/lorarstudio) 📸  
   - [LinkedIn](https://www.linkedin.com/Lorar) 🔗
   - [Pinterest](https://pin.it/5OCyCma1i) 🔗
-
 
 ---
 
@@ -62,7 +61,7 @@ Si deseas obtener más información o discutir un proyecto, no dudes en contacta
 - **Diseños Únicos**: Cada proyecto es personalizado para cumplir con las expectativas del cliente.
 - **Calidad y Profesionalismo**: Garantía de calidad en cada uno de los trabajos realizados.
 - **Enfoque Sostenible**: Soluciones ecológicas que respetan el medio ambiente.
-- **Experiencia**: Más de [X] años de experiencia en el sector de la arquitectura y el diseño de interiores.
+- **Experiencia**: Más de 5 años de experiencia en el sector de la arquitectura y el diseño de interiores.
 
 ---
 
