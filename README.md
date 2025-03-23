@@ -69,6 +69,9 @@ Si deseas obtener más información o discutir un proyecto, no dudes en contacta
 
 ¡Gracias por visitar Lorart! Si tienes algún proyecto en mente, estaré encantada de ayudarte a hacerlo realidad. 😊
 
-[Lorart Studio Desktop & Mobile.pdf](https://github.com/user-attachments/files/19409162/Lorart.Studio.Desktop.Mobile.pdf)
+## Desktop 🖥️
+![Lorart Studio Desktop](https://github.com/user-attachments/assets/e635d526-20c5-4e7a-824f-7793750caa20)
 
+## Mobile 📱
+![Lorart Studio Mobile](https://github.com/user-attachments/assets/4fc163e3-82ff-4a4f-89c6-ab6aafaa59e3)
 
