@@ -1,8 +1,11 @@
-# **Lorart - Servicios de Arquitectura y Diseño de Interiores** 🏛️🏡
+> [!WARNING]
+> EN CONSTRUCCION
+
+# **Lorar - Servicios de Arquitectura y Diseño de Interiores** 🏡
 
 ## 📚 Descripción
 
-**Lorart** es la plataforma digital que presenta los mejores **servicios de arquitectura** y **diseño de interiores**. Este espacio funciona como el **portafolio en línea** de **Shana Lora**, una arquitecta graduada de la **Universidad Autónoma de Santo Domingo (UASD)**, quien ofrece soluciones creativas y personalizadas para transformar espacios, adaptándolos a las necesidades y gustos únicos de cada cliente.
+**Lorar** es la plataforma digital que presenta los mejores **servicios de arquitectura** y **diseño de interiores**. Este espacio funciona como el **portafolio en línea** de **Shana Lora**, una arquitecta graduada de la **Universidad Autónoma de Santo Domingo (UASD)**, quien ofrece soluciones creativas y personalizadas para transformar espacios, adaptándolos a las necesidades y gustos únicos de cada cliente.
 
 Con un enfoque en la **funcionalidad**, **estética** y **sostenibilidad**, Shana Lora se especializa en ofrecer proyectos que maximizan el potencial de cada espacio, brindando una experiencia visual y práctica inigualable.
 
@@ -46,25 +49,33 @@ Mi enfoque se centra en **escuchar** a mis clientes, entender sus necesidades y 
 
 Si deseas obtener más información o discutir un proyecto, no dudes en contactarme a través de los siguientes medios:
 
-- **Correo electrónico**: [shanalorar@lorart.com](mailto:shanalorar@lorart.com) ✉️
+- **Correo electrónico**: [shanalorar@lorar.com](mailto:shanalorar@lorar.com) ✉️
 - **Teléfono**: +1 (809) 123-4567 📞
 - **Redes Sociales**:  
   - [Facebook](https://www.facebook.com/profile.php?id=61569035094307) 📘  
-  - [Instagram](https://www.instagram.com/lorartestudio) 📸  
-  - [LinkedIn](https://www.linkedin.com/lorart) 🔗
+  - [Instagram](https://www.instagram.com/lorarstudio) 📸  
+  - [LinkedIn](https://www.linkedin.com/Lorar) 🔗
   - [Pinterest](https://pin.it/5OCyCma1i) 🔗
-
 
 ---
 
-## 🌟 ¿Por qué elegir Lorart?
+## 🌟 ¿Por qué elegir Lorar?
 
 - **Diseños Únicos**: Cada proyecto es personalizado para cumplir con las expectativas del cliente.
 - **Calidad y Profesionalismo**: Garantía de calidad en cada uno de los trabajos realizados.
 - **Enfoque Sostenible**: Soluciones ecológicas que respetan el medio ambiente.
-- **Experiencia**: Más de [X] años de experiencia en el sector de la arquitectura y el diseño de interiores.
+- **Experiencia**: Más de 5 años de experiencia en el sector de la arquitectura y el diseño de interiores.
 
 ---
 
 
-¡Gracias por visitar Lorart! Si tienes algún proyecto en mente, estaré encantada de ayudarte a hacerlo realidad. 😊
+¡Gracias por visitar Lorar! Si tienes algún proyecto en mente, estaré encantada de ayudarte a hacerlo realidad. 😊
+
+Diseño basado en Figma por Jhossua Roa Rodriguez
+
+## Desktop 🖥️
+![Lorar Studio Desktop](https://github.com/user-attachments/assets/e635d526-20c5-4e7a-824f-7793750caa20)
+
+## Mobile 📱
+![Lorar Studio Mobile](https://github.com/user-attachments/assets/4fc163e3-82ff-4a4f-89c6-ab6aafaa59e3)
+
