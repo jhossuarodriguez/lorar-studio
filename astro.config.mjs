@@ -10,7 +10,8 @@ export default defineConfig({
   },
   experimental: {
     svg: {
-      mode: 'sprite',
-    }
+      mode: 'sprite'
+    },
+    responsiveImages: true,
   }
 });
