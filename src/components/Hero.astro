@@ -4,10 +4,12 @@ import Logo from "../assets/logo.svg";
 import SpiralArrow from "../assets/images/icons/spiral_arrow.svg";
 ---
 
-<section class="mt-40 mx-10 min-h-screen relative px-20">
-    <div class="relative w-[660px] h-[468px]">
+<section
+    class="mt-40 mx-10 min-h-screen relative px-4 sm:px-8 md:px-16 xl:px-20"
+>
+    <div class="relative w-full max-w-[660px] h-auto">
         <h1
-            class="text-7xl w-2xl text-primary font-semibold leading-[1.15] animate-fade-in"
+            class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-primary font-semibold leading-tight sm:leading-[1.2] md:leading-[1.15] animate-fade-in"
         >
             Donde las ideas toman forma y el espacio cobra vida.
         </h1>
@@ -22,12 +24,16 @@ import SpiralArrow from "../assets/images/icons/spiral_arrow.svg";
                 >Portfolio <SecondDownloadIcon class="size-4" />
             </button>
 
-            <SpiralArrow class="absolute right-0 bottom-0 size-40" />
+            <SpiralArrow
+                class="hidden md:block md:absolute md:right-0 md:bottom-0 md:size-40"
+            />
         </div>
     </div>
-    <div class="absolute -right-9 md:-top[30%] top-[15%]">
+    <div
+        class="absolute -right-9 top-[40%] md:-right-9 md:absolute md:top-[15%]"
+    >
         <Logo
-            class="z-999 md:w-[725px] size-[530px] text-primary object-cover animate-fade-in animate-delay-1000"
+            class="size-[212px] md:size-[212px] lg:size-[424px] xl:size-[530px] text-primary object-cover animate-fade-in animate-delay-1000 overflow-hidden -z-10"
         />
     </div>
 </section>
