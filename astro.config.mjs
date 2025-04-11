@@ -10,6 +10,6 @@ export default defineConfig({
   },
   experimental: {
     svg: true,
-    responsiveImages: true,
+    responsiveImages: true
   }
 });
