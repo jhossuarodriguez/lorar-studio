@@ -5,7 +5,7 @@ import SpiralArrow from "../assets/images/icons/spiral_arrow.svg";
 ---
 
 <section
-    class="mt-40 mx-10 min-h-screen relative px-4 sm:px-8 md:px-16 xl:px-20"
+    class="mt-40 mx-10 max-h-scren md:min-h-screen relative px-4 sm:px-8 md:px-16 xl:px-20 mb-70 md:mb-0"
 >
     <div class="relative w-full max-w-[660px] h-auto">
         <h1
@@ -16,7 +16,7 @@ import SpiralArrow from "../assets/images/icons/spiral_arrow.svg";
         <div class="mt-9 flex flex-row gap-x-6">
             <a
                 href="#proyectos"
-                class="flex justify-center items-center bg-primary text-tertiary text-base w-40 px-5 py-3 rounded transition-transform duration-300 hover:scale-105 animate-fade-in animate-delay-500"
+                class="flex justify-center items-center bg-primary text-tertiary text-base w-40 md:px-5 md:py-3 rounded transition-transform duration-300 hover:scale-105 animate-fade-in animate-delay-500"
                 >Ver proyectos</a
             >
             <button
@@ -25,15 +25,13 @@ import SpiralArrow from "../assets/images/icons/spiral_arrow.svg";
             </button>
 
             <SpiralArrow
-                class="hidden md:block md:absolute md:right-0 md:bottom-0 md:size-40"
+                class="hidden md:block md:absolute md:right-0 md:bottom-0 md:size-40 animate-fade-in animate-delay-800"
             />
         </div>
     </div>
-    <div
-        class="absolute -right-9 top-[40%] md:-right-9 md:absolute md:top-[15%]"
-    >
+    <div class="absolute top-[280px] right-4 md:top-[15%] md:right-9">
         <Logo
-            class="size-[212px] md:size-[212px] lg:size-[424px] xl:size-[530px] text-primary object-cover animate-fade-in animate-delay-1000 overflow-hidden -z-10"
+            class="size-[212px] md:size-[212px] lg:size-[424px] xl:size-[530px] text-primary object-cover animate-fade-in animate-delay-1000 -z-10"
         />
     </div>
 </section>
