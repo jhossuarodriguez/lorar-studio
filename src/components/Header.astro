@@ -1,12 +1,13 @@
 ---
 import Logo from "../assets/logo.svg";
 import FirstDownloadIcon from "../assets/images/icons/Download-1.svg";
+import MenuBotton from "../assets/images/icons/menu.svg";
 ---
 
 <header
     class="fixed top-0 left-0 w-full flex flex-col justify-center items-center z-50 py-4"
 >
-    <div class="flex justify-between items-center w-full max-w-[1147px]">
+    <div class="flex justify-between items-center w-full max-w-[1147px] px-3">
         <div class="flex justify-start items-center">
             <a
                 href="#home"
@@ -21,21 +22,59 @@ import FirstDownloadIcon from "../assets/images/icons/Download-1.svg";
         </div>
 
         <div class="flex justify-end items-center gap-x-9">
-            <nav class="flex gap-x-4">
-                <a
-                    class="text-secondary hover:text-white transition duration-200"
-                    href="#home">Inico</a
+            <nav class="max-w-6xl w-full mx-auto flex gap-x-4" id="menu">
+                <button
+                    class="flex items-center justify-center py-2 md:hidden group cursor-pointer"
+                    id="header-navbar-toggle"
+                    aria-label="Abrir menú"
+                    title="Mostrar Menú"
                 >
-                <a
-                    class="text-secondary hover:text-white transition duration-200"
-                    href="#proyectos">Proyectos</a
+                    <MenuBotton class="size-10 text-primary" />
+                </button>
+
+                <div class="hidden md:flex space-x-6">
+                    <a
+                        class="text-secondary hover:text-white transition duration-200"
+                        href="#home">Inico</a
+                    >
+                    <a
+                        class="text-secondary hover:text-white transition duration-200"
+                        href="#proyectos">Proyectos</a
+                    >
+                    <a
+                        class="text-secondary hover:text-white transition duration-200"
+                        href="#contacto">Contacto</a
+                    >
+                </div>
+
+                <!--Mobile Menu -->
+                <div
+                    class="md:hidden max-h-0 overflow-hidden transition-all duration-300 ease-in-out flex-col space-y-2 px-4 pb-4 hidden"
+                    id="nav-mobile"
                 >
-                <a
-                    class="text-secondary hover:text-white transition duration-200"
-                    href="#contacto">Contacto</a
-                >
+                    <a
+                        class="text-secondary hover:text-white transition duration-200"
+                        href="#home">Inico</a
+                    >
+                    <a
+                        class="text-secondary hover:text-white transition duration-200"
+                        href="#proyectos">Proyectos</a
+                    >
+                    <a
+                        class="text-secondary hover:text-white transition duration-200"
+                        href="#contacto">Contacto</a
+                    >
+
+                    <a
+                        class="mt-2 flex justify-center items-center w-full px-5 py-3 bg-primary text-tertiary rounded gap-x-1 hover:scale-105 transition duration-300"
+                        href="#proyectos"
+                    >
+                        CV <FirstDownloadIcon class="size-4 text-white" />
+                    </a>
+                </div>
+                
             </nav>
-            <div class="flex items-center">
+            <div class="hidden md:flex items-center">
                 <a
                     class="flex justify-center items-center w-36 px-5 py-3 bg-primary text-tertiary rounded gap-x-1 hover:scale-105 transition duration-300"
                     href="#proyectos"
