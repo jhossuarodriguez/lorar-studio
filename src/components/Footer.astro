@@ -2,10 +2,13 @@
 import Logo from "../assets/logo.svg";
 ---
 
-<footer class="w-full flex flex-row bg-white py-7">
-    <div class="flex justify-between items-center mx-5">
-        <a href="">
+<footer class="hidden md:flex flex-row bg-white py-7">
+    <div class="flex justify-between items-center mx-10 w-full">
+        <a href="#home" title="Volver al inicio" aria-label="Volver al inicio">
             <Logo class="size-11" />
         </a>
+        <span class="text-base"
+            >© {new Date().getFullYear()} Todos los derechos reservados.</span
+        >
     </div>
 </footer>
