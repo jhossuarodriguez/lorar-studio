@@ -76,6 +76,3 @@ Diseño basado en Figma por Jhossua Roa Rodriguez
 ## Desktop 🖥️
 ![Lorar Studio Desktop](https://github.com/user-attachments/assets/e635d526-20c5-4e7a-824f-7793750caa20)
 
-## Mobile 📱
-![Lorar Studio Mobile](https://github.com/user-attachments/assets/4fc163e3-82ff-4a4f-89c6-ab6aafaa59e3)
-
