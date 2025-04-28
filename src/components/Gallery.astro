@@ -4,7 +4,7 @@ import BackIcon from "../assets/images/icons/BackIcon.svg";
 ---
 
 <section class="w-full py-14 md:px-38 bg-[#F0F3FF]" id="projects">
-    <div class="flex flex-row items-center justify-between mx-5">
+    <div class="flex items-center justify-between mx-5">
         <h1
             class="text-xl md:text-4xl text-secondary font-semibold w-full md:w-[737px] leading-[1.5]"
         >
@@ -12,8 +12,17 @@ import BackIcon from "../assets/images/icons/BackIcon.svg";
             un espacio único para ti y tu familia.
         </h1>
         <div class="hidden md:flex flex-row gap-5">
-            <button class="cursor-pointer"><BackIcon /></button>
-            <button class="cursor-pointer"><NextIcon /></button>
+            <button class="cursor-pointer"
+                ><BackIcon
+                    class="hover:scale-105 transition not-[]:duration-300"
+                /></button
+            >
+            <button class="cursor-pointer"
+                ><NextIcon
+                    class="hover:scale-105 transition duration-300"
+                /></button
+            >
         </div>
+        <div class="mt-5 flex flex-col"></div>
     </div>
 </section>
