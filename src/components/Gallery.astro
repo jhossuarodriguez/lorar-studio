@@ -1,28 +1,76 @@
 ---
 import NextIcon from "../assets/images/icons/NextIcon.svg";
 import BackIcon from "../assets/images/icons/BackIcon.svg";
+import { Image } from "astro:assets";
+import Project1 from "../assets/projects/front-house.webp";
 ---
 
 <section class="w-full py-14 md:px-38 bg-[#F0F3FF]" id="projects">
-    <div class="flex items-center justify-between mx-5">
-        <h1
-            class="text-xl md:text-4xl text-secondary font-semibold w-full md:w-[737px] leading-[1.5]"
-        >
-            No solo diseñamos y<br /> construimos, sino que también<br /> creamos
-            un espacio único para ti y tu familia.
-        </h1>
-        <div class="hidden md:flex flex-row gap-5">
-            <button class="cursor-pointer"
-                ><BackIcon
-                    class="hover:scale-105 transition not-[]:duration-300"
-                /></button
+    <div class="flex flex-col mx-5">
+        <div class="flex items-center justify-between">
+            <h1
+                class="text-xl md:text-4xl text-secondary font-semibold w-full md:w-[737px] leading-[1.5]"
             >
-            <button class="cursor-pointer"
-                ><NextIcon
-                    class="hover:scale-105 transition duration-300"
-                /></button
-            >
+                No solo diseñamos y<br /> construimos, sino que también<br /> creamos
+                un espacio único para ti y tu familia.
+            </h1>
+
+            <div class="hidden md:flex flex-row gap-5">
+                <button class="cursor-pointer" id="prevBtn"
+                    ><BackIcon
+                        class="hover:scale-105 transition duration-300"
+                    /></button
+                >
+                <button class="cursor-pointer" id="nextBtn"
+                    ><NextIcon
+                        class="hover:scale-105 transition duration-300"
+                    /></button
+                >
+            </div>
         </div>
-        <div class="mt-5 flex flex-col"></div>
+        <div class="mt-5 flex flex-col justify-center">
+            <div class="gap-8">
+                <div
+                    class="flex md:flex-row overflow-x-auto gap-4 scroll-smooth"
+                    id="carousel"
+                >
+                    <div class="min-w-[300px] md:min-w-[354px]">
+                        <Image
+                            src={Project1}
+                            alt="Front house project"
+                            class="w-full h-auto rounded-lg shadow-md"
+                        />
+                    </div>
+                    <div class="min-w-[300px] md:min-w-[354px]">
+                        <Image
+                            src={Project1}
+                            alt="Front house project"
+                            class="w-full h-auto rounded-lg shadow-md"
+                        />
+                    </div>
+                    <div class="min-w-[300px] md:min-w-[354px]">
+                        <Image
+                            src={Project1}
+                            alt="Front house project"
+                            class="w-full h-auto rounded-lg shadow-md"
+                        />
+                    </div>
+                    <div class="min-w-[300px] md:min-w-[354px]">
+                        <Image
+                            src={Project1}
+                            alt="Front house project"
+                            class="w-full h-auto rounded-lg shadow-md"
+                        />
+                    </div>
+                    <div class="min-w-[300px] md:min-w-[354px]">
+                        <Image
+                            src={Project1}
+                            alt="Front house project"
+                            class="w-full h-auto rounded-lg shadow-md"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
