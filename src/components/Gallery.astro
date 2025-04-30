@@ -3,6 +3,13 @@ import NextIcon from "../assets/images/icons/NextIcon.svg";
 import BackIcon from "../assets/images/icons/BackIcon.svg";
 import { Image } from "astro:assets";
 import Project1 from "../assets/projects/front-house.webp";
+
+const IMAGES = [
+    {
+        image: Project1,
+        alt: "Front house project",
+    },
+];
 ---
 
 <section class="w-full py-14 md:px-38 bg-[#F0F3FF]" id="projects">
@@ -29,48 +36,60 @@ import Project1 from "../assets/projects/front-house.webp";
             </div>
         </div>
         <div class="mt-5 flex flex-col justify-center">
-            <div class="gap-8">
-                <div
-                    class="flex md:flex-row overflow-x-auto gap-4 scroll-smooth"
-                    id="carousel"
-                >
-                    <div class="min-w-[300px] md:min-w-[354px]">
-                        <Image
-                            src={Project1}
-                            alt="Front house project"
-                            class="w-full h-auto rounded-lg shadow-md"
-                        />
-                    </div>
-                    <div class="min-w-[300px] md:min-w-[354px]">
-                        <Image
-                            src={Project1}
-                            alt="Front house project"
-                            class="w-full h-auto rounded-lg shadow-md"
-                        />
-                    </div>
-                    <div class="min-w-[300px] md:min-w-[354px]">
-                        <Image
-                            src={Project1}
-                            alt="Front house project"
-                            class="w-full h-auto rounded-lg shadow-md"
-                        />
-                    </div>
-                    <div class="min-w-[300px] md:min-w-[354px]">
-                        <Image
-                            src={Project1}
-                            alt="Front house project"
-                            class="w-full h-auto rounded-lg shadow-md"
-                        />
-                    </div>
-                    <div class="min-w-[300px] md:min-w-[354px]">
-                        <Image
-                            src={Project1}
-                            alt="Front house project"
-                            class="w-full h-auto rounded-lg shadow-md"
-                        />
-                    </div>
-                </div>
+            <div
+                class="flex md:flex-row overflow-x-auto gap-4 scroll-smooth object-contain scrollbar-hide"
+                id="carousel"
+            >
+                {
+                    [...Array(5)]
+                        .map(() =>
+                            IMAGES.map((project) => (
+                                <div class="min-w-full md:min-w-[354px] relative">
+                                    <Image
+                                        src={project.image}
+                                        alt={project.alt}
+                                        class="w-full h-auto rounded-lg shadow-md"
+                                    />
+                                    <div class="absolute bottom-0 flex items-end w-full h-full  bg-gradient-to-t from-blue-500/30 via-transparent to-transparent rounded-lg shadow-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+                                        <div class="gap-y-3 mx-6 pb-4">
+                                            <h1 class="text-white font-bold">
+                                                Vivienda Unifamiliar
+                                            </h1>
+                                            <p class="text-white font-light">
+                                                Bonao, DR
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            )),
+                        )
+                        .flat()
+                }
             </div>
         </div>
     </div>
 </section>
+
+<script is:inline>
+    const carousel = document.getElementById("carousel");
+    const prevBtn = document.getElementById("prevBtn");
+    const nextBtn = document.getElementById("nextBtn");
+
+    let scrollAmount = 0;
+
+    nextBtn.addEventListener("click", () => {
+        scrollAmount += 360;
+        carousel.scrollTo({
+            left: scrollAmount,
+            behavior: "smooth",
+        });
+    });
+
+    prevBtn.addEventListener("click", () => {
+        scrollAmount -= 354;
+        carousel.scrollTo({
+            left: scrollAmount,
+            behavior: "smooth",
+        });
+    });
+</script>
