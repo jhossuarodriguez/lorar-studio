@@ -50,7 +50,7 @@ const IMAGES = [
                                         alt={project.alt}
                                         class="w-full h-auto rounded-lg shadow-md"
                                     />
-                                    <div class="absolute bottom-0 flex items-end w-full h-full  bg-gradient-to-t from-blue-500/30 via-transparent to-transparent rounded-lg shadow-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+                                    <div class="absolute bottom-0 flex items-end w-full h-full  bg-gradient-to-t from-blue-500/30 via-transparent to-transparent rounded-lg shadow-lg md:bg-black/30 md:hover:bg-black/0 transition  duration-300">
                                         <div class="gap-y-3 mx-6 pb-4">
                                             <h1 class="text-white font-bold">
                                                 Vivienda Unifamiliar
@@ -69,6 +69,12 @@ const IMAGES = [
         </div>
     </div>
 </section>
+
+<style>
+    #carousel::-webkit-scrollbar {
+        display: none;
+    }
+</style>
 
 <script is:inline>
     const carousel = document.getElementById("carousel");
