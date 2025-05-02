@@ -1,7 +1,56 @@
+---
+import { Image } from "astro:assets";
+import ArqDesign from "../assets/images/arq_design.webp";
+---
+
 <section class="w-full py-14 md:px-38" id="contact">
-    <div class="flex flex-col">
-        <h1 class="text-xl md:text-4xl">
-            Contáctanos si tienes alguna pregunta.
-        </h1>
+    <div class="grid grid-cols-5 grid-rows-5 gap-4 mx-5">
+        <div class="col-span-2 row-span-5">
+            <h1
+                class="text-xl md:text-4xl text-secondary font-semibold w-full md:w-[737px] leading-[1.5]"
+            >
+                Contáctanos si <br /> tienes alguna <br /> pregunta.
+            </h1>
+            <div class="flex flex-col mt-16">
+                <div class="flex flex-col gap-4">
+                    <input
+                        type="text"
+                        id="name"
+                        class="border border-secondary rounded-md p-2 w-full md:w-[354px] h-[50px]"
+                        placeholder="Nombre"
+                    />
+                </div>
+                <div class="flex flex-col gap-4 mt-5">
+                    <input
+                        type="email"
+                        id="email"
+                        class="border border-secondary rounded-md p-2 w-full md:w-[354px] h-[50px]"
+                        placeholder="Correo Electronico"
+                    />
+                </div>
+                <button
+                    type="submit"
+                    class="bg-secondary text-white rounded-md p-2 w-full md:w-[354px] h-[50px] mt-8"
+                >
+                    Enviar mensaje
+                </button>
+            </div>
+        </div>
+        <div
+            class="row-span-5 col-start-3 min-w-full md:min-w-[354px] hidden md:block"
+        >
+            <Image
+                class="w-auto h-auto"
+                src={ArqDesign}
+                alt="Hola"
+                loading="lazy"
+            />
+            <Image
+                class="w-auto h-auto"
+                src={ArqDesign}
+                alt="Hola"
+                loading="lazy"
+            />
+        </div>
     </div>
 </section>
